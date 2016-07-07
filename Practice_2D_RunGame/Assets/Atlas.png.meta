@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 7d69ed54e6cba7b47b6c84551a6b8f00
+timeCreated: 1467100764
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Atlas_0
+    21300002: point1
+    21300004: point2
+    21300006: point3
+    21300008: obstacle_short
+    21300010: obstacle_tall
+    21300012: obstacle_slide
+    21300014: ground
+    21300016: tree
+    21300018: sky
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: point1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 33
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 26}
+        - {x: 0, y: 0}
+        - {x: 33, y: 0}
+        - {x: 33, y: 32}
+        - {x: 18, y: 33}
+        - {x: 9, y: 33}
+    - name: point2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 33
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 33}
+        - {x: 0, y: 29}
+        - {x: 0, y: 0}
+        - {x: 33, y: 0}
+        - {x: 33, y: 33}
+    - name: point3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 799
+        width: 33
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: obstacle_short
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 64
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 65}
+        - {x: 0, y: 65}
+        - {x: 0, y: 3}
+        - {x: 2, y: 0}
+        - {x: 64, y: 0}
+        - {x: 64, y: 43}
+        - {x: 58, y: 51}
+    - name: obstacle_tall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 65
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 57}
+        - {x: 65, y: 63}
+        - {x: 65, y: 125}
+        - {x: 63, y: 128}
+        - {x: 7, y: 128}
+        - {x: 0, y: 117}
+        - {x: 0, y: 0}
+        - {x: 65, y: 0}
+        - {x: 65, y: 25}
+        - {x: 57, y: 29}
+    - name: obstacle_slide
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 127
+        height: 179
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 179}
+        - {x: 0, y: 12}
+        - {x: 3, y: 0}
+        - {x: 127, y: 0}
+        - {x: 127, y: 179}
+    - name: ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 1024
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 64}
+        - {x: 0, y: 0}
+        - {x: 1024, y: 0}
+        - {x: 1024, y: 64}
+    - name: tree
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 1024
+        height: 101
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 973, y: 65}
+        - {x: 936, y: 61}
+        - {x: 861, y: 83}
+        - {x: 826, y: 73}
+        - {x: 804, y: 57}
+        - {x: 769, y: 71}
+        - {x: 726, y: 70}
+        - {x: 722, y: 85}
+        - {x: 686, y: 101}
+        - {x: 682, y: 101}
+        - {x: 623, y: 97}
+        - {x: 601, y: 101}
+        - {x: 579, y: 101}
+        - {x: 566, y: 79}
+        - {x: 536, y: 92}
+        - {x: 500, y: 76}
+        - {x: 470, y: 46}
+        - {x: 420, y: 69}
+        - {x: 402, y: 89}
+        - {x: 347, y: 101}
+        - {x: 292, y: 101}
+        - {x: 265, y: 70}
+        - {x: 168, y: 66}
+        - {x: 165, y: 46}
+        - {x: 61, y: 89}
+        - {x: 0, y: 78}
+        - {x: 0, y: 0}
+        - {x: 1019, y: 0}
+        - {x: 1024, y: 2}
+        - {x: 1024, y: 79}
+        - {x: 993, y: 83}
+    - name: sky
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 255
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 255}
+        - {x: 0, y: 0}
+        - {x: 1024, y: 0}
+        - {x: 1024, y: 255}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
